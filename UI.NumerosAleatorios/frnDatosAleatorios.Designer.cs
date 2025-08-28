@@ -28,32 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnMostrarMensaje = new Button();
             SuspendLayout();
-            // 
-            // btnMostrarMensaje
-            // 
-            btnMostrarMensaje.Location = new Point(342, 158);
-            btnMostrarMensaje.Name = "btnMostrarMensaje";
-            btnMostrarMensaje.Size = new Size(116, 23);
-            btnMostrarMensaje.TabIndex = 0;
-            btnMostrarMensaje.Text = "Mostrar mensaje";
-            btnMostrarMensaje.UseVisualStyleBackColor = true;
-            btnMostrarMensaje.Click += button1_Click;
             // 
             // frnDatosAleatorios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(btnMostrarMensaje);
+            ClientSize = new Size(559, 450);
             Name = "frnDatosAleatorios";
             Text = "frnDatosAleatorios";
+            Load += frnDatosAleatorios_Load;
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Button btnMostrarMensaje;
     }
 }

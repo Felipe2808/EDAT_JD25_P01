@@ -22,5 +22,10 @@ namespace UI.NumerosAleatorios
             MessageBox.Show("hola edat");
 
         }
+
+        private void frnDatosAleatorios_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,7 +28,7 @@ namespace UI.Trabajo
                 FechaNacimiento = GenerarFechaNacimiento(),
                 Sexo = (random.Next(0, 2) == 0) ? "Masculino" : "Femenino",
                 Grupo = (char)random.Next('a', 'd'),
-                Sueldo = Math.Round(random.NextDouble() * 20000 + 5000, 2),
+                Sueldo = Math.Round(random.NextDouble() * 20000 + 5000, 4),
                 SeguroMedico = random.Next(0, 2) == 1
             };
 
