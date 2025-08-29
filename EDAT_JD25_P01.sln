@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.Trabajo", "UI.Trabajo\UI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncionesLambda", "FuncionesLambda\FuncionesLambda.csproj", "{423DD7E2-AF46-46DE-B439-2B5833600A2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplejidadAlgoritmos", "ComplejidadAlgoritmos\ComplejidadAlgoritmos.csproj", "{D5BC8A62-53A1-45C4-9449-547DD9F1B822}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{423DD7E2-AF46-46DE-B439-2B5833600A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{423DD7E2-AF46-46DE-B439-2B5833600A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{423DD7E2-AF46-46DE-B439-2B5833600A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BC8A62-53A1-45C4-9449-547DD9F1B822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BC8A62-53A1-45C4-9449-547DD9F1B822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BC8A62-53A1-45C4-9449-547DD9F1B822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BC8A62-53A1-45C4-9449-547DD9F1B822}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
