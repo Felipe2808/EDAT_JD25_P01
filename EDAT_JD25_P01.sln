@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursiv-Actividad1", "Recu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codigo-Recursividad-actividad1", "Codigo-Recursividad-actividad1\Codigo-Recursividad-actividad1.csproj", "{564E6C67-C718-45AA-A520-DE5D23FDDB35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad1Tema3MATRIZ", "Actividad1Tema3MATRIZ\Actividad1Tema3MATRIZ.csproj", "{F3414FBD-2C87-450E-A1E8-1990355532BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{564E6C67-C718-45AA-A520-DE5D23FDDB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564E6C67-C718-45AA-A520-DE5D23FDDB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564E6C67-C718-45AA-A520-DE5D23FDDB35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3414FBD-2C87-450E-A1E8-1990355532BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3414FBD-2C87-450E-A1E8-1990355532BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3414FBD-2C87-450E-A1E8-1990355532BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3414FBD-2C87-450E-A1E8-1990355532BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
