@@ -8,6 +8,7 @@ namespace RecursividadAC
 {
     public class Recursividad
     {
+        /*
         public int factorial(int numero)
         {
             //Caso base
@@ -57,25 +58,59 @@ namespace RecursividadAC
                 return inicio + ", " + imprimir((char)(inicio + 1), fin);
             }
         }
-        public string impfor(char inicio, char fin)
-        {
-            if (inicio == fin)
-            {
-                return inicio.ToString();
-            }
-            else
-            {
-                for (int i=0;i==27; i++)
-                {
-                    if (i==inicio)
-                    {
-                        return inicio +","+impfor((char)(inicio + 1), fin);
-                    }
 
-                }
+        */
+        // Factorial con FOR
+        public int factorialFor(int numero)
+        {
+            int resultado = 1;
+            for (int i = 1; i <= numero; i++)
+            {
+                resultado *= i;
             }
-               
+            return resultado;
         }
+
+        // Fibonacci con FOR
+        public int fibonacciFor(int posicion)
+        {
+            if (posicion == 0) return 0;
+            if (posicion == 1) return 1;
+
+            int a = 0, b = 1, c = 0;
+            for (int i = 2; i <= posicion; i++)
+            {
+                c = a + b;
+                a = b;
+                b = c;
+            }
+            return b;
+        }
+
+        // Revertir número con FOR
+        public string revertirFor(string numero)
+        {
+            string invertido = "";
+            for (int i = numero.Length - 1; i >= 0; i--)
+            {
+                invertido += numero[i];
+            }
+            return invertido;
+        }
+
+        // Imprimir letras con FOR
+        public string imprimirFor(char inicio, char fin)
+        {
+            string resultado = "";
+            for (char c = inicio; c <= fin; c++)
+            {
+                resultado += c;
+                if (c != fin) resultado += ", ";
+            }
+            return resultado;
+        }
+
+
 
     }
 }
